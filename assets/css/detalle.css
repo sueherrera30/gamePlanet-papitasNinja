@@ -1,0 +1,9 @@
+body{
+  background-color: #050306;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+div .item > img {
+  /*width: 80%;*/
+}
