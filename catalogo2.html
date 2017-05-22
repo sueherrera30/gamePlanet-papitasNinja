@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Catalogo</title>
-	<link rel="shortcut icon" type="image/x-icon" href="assets/img/download.png">
+	<link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/catalogo2.css">
 </head>
@@ -14,20 +14,20 @@
 	<article>
 		<section class="navCatalogo col-md-8 col-center">
 			<ul class="nav nav-tabs nav-justified">
-			  <li role="presentation" class="active"><a href="#">Consola</a></li>
+			  <li role="presentation" class="active"><a href="#consola">Consola</a></li>
 			  <li role="presentation"><a href="#">Videojuegos</a></li>
-			  <li role="presentation"><a href="#">Accesorios</a></li>
+			  <li role="presentation"><a href="#accesorios">Accesorios</a></li>
 			</ul>
 		</section>
 	</article>
 
-	<article >
-		<section class="imfoConsola col-md-8 col-center marginTop">
+	<article id="consola">
+		<section class="col-md-8 col-center marginTop">
 			<section class="row">
 				<section class="col-md-4">
 					<img src="assets/img/xboxOne.jpg" alt="xboxOne" class="xboxOne">
 				</section>
-				<section class="col-md-8">
+				<section class="col-md-8 infoConsola">
 					<h2 class="page-header">Consola Xbox One de 500 GB</h2>
 					<p>
 						Consola Xbox One con un disco duro de 500 GB, que incluye la descarga del
@@ -65,8 +65,43 @@
 		</section>
 	</article>
 
-	<article class="row">
-
-	</article>
+	<article id="accesorios" class="container">
+		<section class="col-md-8 col-center marginTop">
+			<section class="row">
+				<div class="col-md-4">
+			    <div class="thumbnail">
+			      <img src="assets/img/palanca.jpg" alt="control" class="accesorios">
+			      <div class="caption">
+			        <h4>Thrustmaster TH8A Add-On Xbox One</h4>
+			        <span>
+								<a href="#" class="btn btn-primary" role="button">Leer más</a>
+							</span>
+			      </div>
+			    </div>
+			  </div>
+				<div class="col-md-4">
+			    <div class="thumbnail">
+			      <img src="assets/img/cargaXbox.jpg" alt="carga" class="accesorios">
+			      <div class="caption">
+			        <h4>Microsoft Kit Carga & Juega Xbox One</h4>
+			        <span>
+								<a href="#" class="btn btn-primary" role="button">Leer más</a>
+							</span>
+			      </div>
+			    </div>
+			  </div>
+				<div class="col-md-4">
+			    <div class="thumbnail">
+			      <img src="assets/img/control.jpg" alt="carga" class="accesorios">
+			      <div class="caption">
+			        <h4>Teclado para Controller Xbox ONE</h4>
+			        <span>
+								<a href="#" class="btn btn-primary" role="button">Leer más</a>
+							</span>
+			      </div>
+			    </div>
+			  </div>
+			</section>
+		</article>
 </body>
 </html>
