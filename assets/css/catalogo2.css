@@ -1,0 +1,26 @@
+.xboxOne{
+  width: 100%;
+}
+.imgPeque{
+  width:100%;
+}
+.imgPeque:hover{
+  opacity: .5;
+}
+.col-center{
+    float: none;
+    margin: 0 auto;
+}
+.marginTop{
+  margin-top: 5%;
+}
+.nav>li>a:hover{
+  background: #4CC35B;
+  color: white;
+}
+a{
+  color: #68DA23;
+}
+.texto{
+  height: 150px;
+}
