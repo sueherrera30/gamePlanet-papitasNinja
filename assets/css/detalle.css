@@ -28,6 +28,10 @@ body{
   margin-left: 13%;
 }
 
+.margen{
+  margin: 0 5%;
+}
+
 .center{
   text-align: center;
 }
