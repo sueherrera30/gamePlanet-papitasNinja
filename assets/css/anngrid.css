@@ -1,0 +1,34 @@
+.index-containerGral{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px auto;
+}
+
+.index-carousel{
+    display: grid;
+    justify-content: center;
+}
+
+.imgAside{
+    display: grid;
+    grid-template-columns: 10fr 2fr;
+    
+}
+
+.carouselSection2{
+    display: grid;
+    justify-content: center;
+    
+}
+
+.titleBold{
+    font-weight: bold;
+    padding-top: 3vw;
+    margin-left: 2vw;
+}
+.enlace{
+    padding: 1vw;
+    color:#68DA23;
+}
+
+
