@@ -1,22 +1,35 @@
-var consola = document.getElementById("consola");
-var videojuegos = document.getElementById("videojuegos");
+var btnconsola = document.getElementById("btnconsola");
+var btnvideojuegos = document.getElementById("btnvideojuegos");
 var btnaccesorios = document.getElementById("btnaccesorios");
 
-var secVideojuegos = document.getElementById("videojuegosSec");
+var consola= document.getElementById("consola");
+var videojuegos = document.getElementById("videojuegos");
 var accesorios= document.getElementById("accesorios");
+console.log(videojuegos);
+console.log(consola);
+console.log(accesorios)
 
 
-videojuegos.addEventListener("click",videojuegos);
 
-function videojuegos(){
-  accesorios.style.display="none";
+btnvideojuegos.addEventListener("click",mostrarVideojuegos);
+
+function mostrarVideojuegos(){
   consola.style.display="none";
+  videojuegos.style.display="block";
+  accesorios.style.display="none";	 
+}
+btnaccesorios.addEventListener("click",mostrarAccesorios);
+   
+function mostrarAccesorios(){
+   consola.style.display="none";
+   accesorios.style.display="block";
+   videojuegos.style.display="none";
 }
 
-
-accesorios.addEventListener("click",accesorios);
+btnconsola.addEventListener("click",mostrarConsola);
    
-function accesorios(){
+function mostrarConsola(){
+   consola.style.display="block";
+   accesorios.style.display="none";
    videojuegos.style.display="none";
-  consola.style.display="none";
 }
