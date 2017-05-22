@@ -16,6 +16,28 @@ body{
   margin-top: 10%;
 }
 
+.mt-5{
+  margin-top: 5%;
+}
+
 .center{
   text-align: center;
+}
+/*Estilos sugerencias de juego*/
+.imagen-juego{
+	width: 80%;
+	height: 60%;
+	margin-top:5%;
+}
+
+.col-center{
+	float: none;
+	margin:0 auto;
+}
+.color1{
+	background-color: #412754;
+}
+
+.color2{
+	background-color: #4CC35B;
 }
