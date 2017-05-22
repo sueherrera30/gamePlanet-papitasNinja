@@ -7,3 +7,15 @@ body{
 .fteVerdeFos{
   color: #68DA23;
 }
+
+.cursor{
+  cursor: default;
+}
+
+.mt-10{
+  margin-top: 10%;
+}
+
+.center{
+  text-align: center;
+}
