@@ -1,0 +1,29 @@
+.imagen-juego{
+	width: 80%;
+	height: 60%;
+	margin-top:5%;
+}
+
+
+.thumbnail{
+	width: 80%;
+	height: 60%;
+	margin: 10%;
+	
+}
+.thumbnail,.btn,h3{
+	text-align: center;
+	color:#68DA23;
+}
+
+.col-center{
+	float: none;
+	margin:0 auto;
+}
+.color1{
+	background-color: #412754;
+}
+
+.color2{
+	background-color: #4CC35B;
+}
