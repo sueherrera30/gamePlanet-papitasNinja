@@ -1,7 +1,12 @@
+
+
 .imagen-juego{
-	width: 80%;
-	height: 60%;
+	width: 50%;
+	height: 50%;
 	margin-top:5%;
+	border-radius:70%;
+	border: solid 5px;
+	border-color:#412754; 
 }
 
 
@@ -9,9 +14,11 @@
 	width: 80%;
 	height: 60%;
 	margin: 10%;
+	/*border: solid 2px;
+	border-color:#68DA23; */
 	
 }
-.thumbnail,.btn,h3{
+.thumbnail,h3{
 	text-align: center;
 	color:#68DA23;
 }
@@ -20,10 +27,8 @@
 	float: none;
 	margin:0 auto;
 }
-.color1{
-	background-color: #412754;
-}
-
-.color2{
-	background-color: #4CC35B;
+.thumbnail .btn{
+	text-align: center;
+	color:#412754;
+	
 }

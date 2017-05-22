@@ -10,29 +10,93 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/catalogo.css">
     <link rel="stylesheet" href="assets/css/catalogo2.css">
- 8	
+ 	<link rel="stylesheet" href="assets/css/header.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<title>Catalogo</title>
 	
 </head>
 <body>
-   
+   <!--seccion header-->
+   <header>
+		<nav class="navbar navbar-default fondo">
+			<div class="container-fluid">
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-left">
+        		<li class="active"><button type="submit" class="btn btn-default">Log In</button></li>
+        		<li><a href="#">Crear Cuenta</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right espacio">
+        		<li><i class="fa fa-cart-plus fa-3x coloricono" aria-hidden="true"></i></li>
+					</ul>
+					<div>
+						<h1 class="centrado">
+							<a><img src="assets/img/gameplanet-logo.png" class="imgHeader"></a>
+						</h1>
+					</div>
+      		<ul class="nav navbar-nav">
+        		<li class="dropdown">
+          		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nintendo Switch<span class="caret"></span></a>
+          			<ul class="dropdown-menu">
+            			<li><a href="#">Consola</a></li>
+            			<li><a href="#">Videojuegos</a></li>
+            			<li><a href="#">Accesorios</a></li>
+          			</ul>
+        		</li>
+      		</ul>
+					<ul class="nav navbar-nav">
+        		<li class="dropdown">
+          	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Xbox One<span class="caret"></span></a>
+          		<ul class="dropdown-menu">
+            		<li><a href="#">Consola</a></li>
+            		<li><a href="#">Videojuegos</a></li>
+            		<li><a href="#">Accesorios</a></li>
+          		</ul>
+        		</li>
+      		</ul>
+					<ul class="nav navbar-nav">
+        		<li class="dropdown">
+          	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Play Station 4<span class="caret"></span></a>
+          		<ul class="dropdown-menu">
+            		<li><a href="#">Consola</a></li>
+            		<li><a href="#">Videojuegos</a></li>
+            		<li><a href="#">Accesorios</a></li>
+          		</ul>
+        		</li>
+      		</ul>
+					<ul class="nav navbar-nav navbar-right">
+        		<li><a href="#">Inicio</a></li>
+						<li><a href="#">Contacto</a></li>
+        		<li><a href="#">About</a></li>
+					</ul>
+      		<form class="navbar-form navbar-rigth">
+        		<div class="form-group">
+          	<input type="text" class="form-control" placeholder="Que juego buscabas?">
+        		</div>
+        		<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+      		</form>
+    		</div>
+  		</div>
+		</nav>
+	</header>
+  <!-- termina header-->
    <article>
 		<section class="navCatalogo col-md-8 col-center">
 			<ul class="nav nav-tabs nav-justified">
-			  <li role="presentation" class="active"><a href="#">Consola</a></li>
+			  <li role="presentation" class="active"><a href="#consola">Consola</a></li>
 			  <li role="presentation"><a href="#">Videojuegos</a></li>
-			  <li role="presentation"><a href="#">Accesorios</a></li>
+			  <li role="presentation"><a href="#accesorios">Accesorios</a></li>
 			</ul>
 		</section>
 	</article>
 
-	<article >
-		<section class="imfoConsola col-md-8 col-center marginTop">
+	<article id="consola">
+		<section class="col-md-8 col-center marginTop">
 			<section class="row">
 				<section class="col-md-4">
 					<img src="assets/img/xboxOne.jpg" alt="xboxOne" class="xboxOne">
 				</section>
-				<section class="col-md-8">
+				<section class="col-md-8 infoConsola">
 					<h2 class="page-header">Consola Xbox One de 500 GB</h2>
 					<p>
 						Consola Xbox One con un disco duro de 500 GB, que incluye la descarga del
@@ -69,12 +133,9 @@
 			</div>
 		</section>
 	</article>
-
-	<article class="row">
-
-	</article>
-    <!--///////////////////////////////////sue-->
-    <!--seccion de juegos -->
+    
+    <!--seccion de juegos -->-->
+    <section id= "videojuegosSec">
      <div class="row">
       <div class="page-header col-xs-8 col-sm-8 col-md-8 col-center">
          <h1>Xbox one</h1>
@@ -191,9 +252,91 @@
 	 </div>
 	</section>
 	</article>
+  </section>	
+  
+  
+  <!--seccion accesorios-->
+  
+  <article id="accesorios" class="container">
+		<section class="col-md-8 col-center marginTop">
+			<section class="row">
+				<div class="col-md-4">
+			    <div class="thumbnail">
+			      <img src="assets/img/palanca.jpg" alt="control" class="accesorios">
+			      <div class="caption">
+			        <h4>Thrustmaster TH8A Add-On Xbox One</h4>
+			        <span>
+								<a href="#" class="btn btn-primary" role="button">Leer más</a>
+							</span>
+			      </div>
+			    </div>
+			  </div>
+				<div class="col-md-4">
+			    <div class="thumbnail">
+			      <img src="assets/img/cargaXbox.jpg" alt="carga" class="accesorios">
+			      <div class="caption">
+			        <h4>Microsoft Kit Carga & Juega Xbox One</h4>
+			        <span>
+								<a href="#" class="btn btn-primary" role="button">Leer más</a>
+							</span>
+			      </div>
+			    </div>
+			  </div>
+				<div class="col-md-4">
+			    <div class="thumbnail">
+			      <img src="assets/img/control.jpg" alt="carga" class="accesorios">
+			      <div class="caption">
+			        <h4>Teclado para Controller Xbox ONE</h4>
+			        <span>
+								<a href="#" class="btn btn-primary" role="button">Leer más</a>
+							</span>
+			      </div>
+			    </div>
+			  </div>
+			</section>
+		</section>
+		</article>
+		<!--seccion footer--><footer>
+		<div class="container">
+			<div class="row_fluid">
+				<div class=" col col-md-12 centrado page-header">
+					<i class="fa fa-facebook circulo redes fa-3x espacio" aria-hidden="true"></i>
+					<i class="fa fa-google-plus circulo redes fa-3x espacio" aria-hidden="true"></i>
+					<i class="fa fa-twitter circulo redes fa-3x espacio" aria-hidden="true"></i>
+					<i class="fa fa-linkedin circulo redes fa-3x espacio" aria-hidden="true"></i>
+				</div>
+				<div class="col col-md-4">
+					<h4>INFORMACION</h4>
+					<ul>
+						<li><a href="#">Aviso de Privacidad</a></li>
+						<li><a href="#">Preguntas Frecuentes</a></li>
+						<li><a href="#">Envios</a></li>
+						<li><a href="#">Terminos y condiciones</a></li>
+					</ul>
+				</div>
+				<div class="col col-md-4">
+					<h4>SERVICIO AL CLIENTE</h4>
+					<ul>
+						<li><strong>Chat: </strong>las 24 horas</li>
+						<li><strong>Telefono: </strong> 01 800 55 3746 2837</li>
+						<li><strong>Mail: </strong> info@gameplanet.com</li>
+					</ul>
+				</div>
+				<div class="col col-md-4">
+					<h4>UBICACION</h4>
+					<ul>
+						<li><img src="assets/img/mapa.png" class="imgFooter"></li>
+						<li><strong>Dirección: </strong>Nº Col. Local F101A, Av Ejército Nacional 843, Granada, 11520 CDMX</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+		
 <!--  links-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/catalogo.js"></script>
 
 </body>
 </html>
