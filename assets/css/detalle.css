@@ -20,8 +20,20 @@ body{
   margin-top: 5%;
 }
 
+.mt-Uno{
+  margin-top: 1%;
+}
+
+.ml-2{
+  margin-left: 13%;
+}
+
 .center{
   text-align: center;
+}
+
+.just{
+  text-align: justify;
 }
 /*Estilos sugerencias de juego*/
 .imagen-juego{
