@@ -1,0 +1,46 @@
+.fondo{
+  background-color: #120A3D;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header a{
+  color: white !important;
+}
+
+.imgHeader{
+  height: 30%;
+  width: 30%;
+}
+
+.centrado{
+  text-align: center;
+}
+
+.espacio{
+  padding-right: 10px;
+}
+
+.coloricono{
+  color: white;
+}
+
+/*css de footer*/
+
+footer{
+  background-color: #120A3D;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  line-height: 2;
+}
+.imgFooter{
+  height: 65%;
+  width: 65%;
+}
+
+footer li{
+  list-style: none;
+}
+
+footer hr{
+  color: grey;
+}
