@@ -1,0 +1,25 @@
+.fondo{
+  background-color: #120A3D;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header a{
+  color: white !important;
+}
+
+.imgHeader{
+  height: 30%;
+  width: 30%;
+}
+
+.centrado{
+  text-align: center;
+}
+
+.espacio{
+  padding-right: 10px;
+}
+
+.coloricono{
+  color: white;
+}
